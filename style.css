@@ -4,7 +4,7 @@ body{
     margin: 0%;
 }
 
-section{
+.container-flex{
     display: flex;
     margin-bottom: 150px;
 }
@@ -18,6 +18,12 @@ h1{
     font-size: 50px;
     /* font-weight: bold; */
 }
+
+h2{
+    font-size: 38px;
+    /* letter-spacing: 2px; */
+}
+
 .welcome-side img{
     width: 90%;
 }
@@ -59,4 +65,40 @@ h1{
 
 .dreambig-text{
     margin-right: 10%;
+}
+
+.experience-item{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 30px;
+
+}
+
+.experience-aria{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(#002aff,#00f6ff);
+    border-image-slice: 1;
+}
+
+#full-stack-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(#f59a87,#f84734);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
 }

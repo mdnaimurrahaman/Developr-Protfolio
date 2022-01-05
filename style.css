@@ -6,6 +6,7 @@ body{
 
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 
 .welcome-side{
@@ -30,7 +31,7 @@ h1{
 } */
 
 .btn-hero{
-    background-image: linear-gradient(#ff6f51,#f53d28);
+    background-image: linear-gradient(#f18974,#e64f3f);
     padding: 10px 40px;
     text-decoration: none;
     border-radius: 5px;
@@ -42,9 +43,20 @@ h1{
     text-decoration: none;
     border-radius: 5px;
     transition: all 0.5s ease;
+    color: rgb(250, 248, 248);
 }
 
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.Dream-Big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.dreambig-text{
+    margin-right: 10%;
 }
